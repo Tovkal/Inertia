@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9553D60A1C9EC1DE004F8ED0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9553D6091C9EC1DE004F8ED0 /* AppDelegate.swift */; };
+		9553D60C1C9EC1DE004F8ED0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9553D60B1C9EC1DE004F8ED0 /* ViewController.swift */; };
+		9553D60F1C9EC1DE004F8ED0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9553D60D1C9EC1DE004F8ED0 /* Main.storyboard */; };
+		9553D6111C9EC1DF004F8ED0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9553D6101C9EC1DF004F8ED0 /* Assets.xcassets */; };
+		9553D6141C9EC1DF004F8ED0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9553D6121C9EC1DF004F8ED0 /* LaunchScreen.storyboard */; };
+		9553D61F1C9EC1DF004F8ED0 /* InertiaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9553D61E1C9EC1DF004F8ED0 /* InertiaTests.swift */; };
+		9553D62A1C9EC1DF004F8ED0 /* InertiaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9553D6291C9EC1DF004F8ED0 /* InertiaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9553D61B1C9EC1DF004F8ED0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9553D5FE1C9EC1DE004F8ED0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9553D6051C9EC1DE004F8ED0;
+			remoteInfo = Inertia;
+		};
+		9553D6261C9EC1DF004F8ED0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9553D5FE1C9EC1DE004F8ED0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9553D6051C9EC1DE004F8ED0;
+			remoteInfo = Inertia;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9553D6061C9EC1DE004F8ED0 /* Inertia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Inertia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9553D6091C9EC1DE004F8ED0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9553D60B1C9EC1DE004F8ED0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9553D60E1C9EC1DE004F8ED0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9553D6101C9EC1DF004F8ED0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9553D6131C9EC1DF004F8ED0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9553D6151C9EC1DF004F8ED0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9553D61A1C9EC1DF004F8ED0 /* InertiaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InertiaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9553D61E1C9EC1DF004F8ED0 /* InertiaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InertiaTests.swift; sourceTree = "<group>"; };
+		9553D6201C9EC1DF004F8ED0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9553D6251C9EC1DF004F8ED0 /* InertiaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InertiaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9553D6291C9EC1DF004F8ED0 /* InertiaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InertiaUITests.swift; sourceTree = "<group>"; };
+		9553D62B1C9EC1DF004F8ED0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9553D6031C9EC1DE004F8ED0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9553D6171C9EC1DF004F8ED0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9553D6221C9EC1DF004F8ED0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9553D5FD1C9EC1DE004F8ED0 = {
+			isa = PBXGroup;
+			children = (
+				9553D6081C9EC1DE004F8ED0 /* Inertia */,
+				9553D61D1C9EC1DF004F8ED0 /* InertiaTests */,
+				9553D6281C9EC1DF004F8ED0 /* InertiaUITests */,
+				9553D6071C9EC1DE004F8ED0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9553D6071C9EC1DE004F8ED0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9553D6061C9EC1DE004F8ED0 /* Inertia.app */,
+				9553D61A1C9EC1DF004F8ED0 /* InertiaTests.xctest */,
+				9553D6251C9EC1DF004F8ED0 /* InertiaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9553D6081C9EC1DE004F8ED0 /* Inertia */ = {
+			isa = PBXGroup;
+			children = (
+				9553D6091C9EC1DE004F8ED0 /* AppDelegate.swift */,
+				9553D60B1C9EC1DE004F8ED0 /* ViewController.swift */,
+				9553D60D1C9EC1DE004F8ED0 /* Main.storyboard */,
+				9553D6101C9EC1DF004F8ED0 /* Assets.xcassets */,
+				9553D6121C9EC1DF004F8ED0 /* LaunchScreen.storyboard */,
+				9553D6151C9EC1DF004F8ED0 /* Info.plist */,
+			);
+			path = Inertia;
+			sourceTree = "<group>";
+		};
+		9553D61D1C9EC1DF004F8ED0 /* InertiaTests */ = {
+			isa = PBXGroup;
+			children = (
+				9553D61E1C9EC1DF004F8ED0 /* InertiaTests.swift */,
+				9553D6201C9EC1DF004F8ED0 /* Info.plist */,
+			);
+			path = InertiaTests;
+			sourceTree = "<group>";
+		};
+		9553D6281C9EC1DF004F8ED0 /* InertiaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9553D6291C9EC1DF004F8ED0 /* InertiaUITests.swift */,
+				9553D62B1C9EC1DF004F8ED0 /* Info.plist */,
+			);
+			path = InertiaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9553D6051C9EC1DE004F8ED0 /* Inertia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9553D62E1C9EC1DF004F8ED0 /* Build configuration list for PBXNativeTarget "Inertia" */;
+			buildPhases = (
+				9553D6021C9EC1DE004F8ED0 /* Sources */,
+				9553D6031C9EC1DE004F8ED0 /* Frameworks */,
+				9553D6041C9EC1DE004F8ED0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Inertia;
+			productName = Inertia;
+			productReference = 9553D6061C9EC1DE004F8ED0 /* Inertia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9553D6191C9EC1DF004F8ED0 /* InertiaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9553D6311C9EC1DF004F8ED0 /* Build configuration list for PBXNativeTarget "InertiaTests" */;
+			buildPhases = (
+				9553D6161C9EC1DF004F8ED0 /* Sources */,
+				9553D6171C9EC1DF004F8ED0 /* Frameworks */,
+				9553D6181C9EC1DF004F8ED0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9553D61C1C9EC1DF004F8ED0 /* PBXTargetDependency */,
+			);
+			name = InertiaTests;
+			productName = InertiaTests;
+			productReference = 9553D61A1C9EC1DF004F8ED0 /* InertiaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9553D6241C9EC1DF004F8ED0 /* InertiaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9553D6341C9EC1DF004F8ED0 /* Build configuration list for PBXNativeTarget "InertiaUITests" */;
+			buildPhases = (
+				9553D6211C9EC1DF004F8ED0 /* Sources */,
+				9553D6221C9EC1DF004F8ED0 /* Frameworks */,
+				9553D6231C9EC1DF004F8ED0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9553D6271C9EC1DF004F8ED0 /* PBXTargetDependency */,
+			);
+			name = InertiaUITests;
+			productName = InertiaUITests;
+			productReference = 9553D6251C9EC1DF004F8ED0 /* InertiaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9553D5FE1C9EC1DE004F8ED0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Andrés Pizá Bückmann";
+				TargetAttributes = {
+					9553D6051C9EC1DE004F8ED0 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					9553D6191C9EC1DF004F8ED0 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 9553D6051C9EC1DE004F8ED0;
+					};
+					9553D6241C9EC1DF004F8ED0 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 9553D6051C9EC1DE004F8ED0;
+					};
+				};
+			};
+			buildConfigurationList = 9553D6011C9EC1DE004F8ED0 /* Build configuration list for PBXProject "Inertia" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9553D5FD1C9EC1DE004F8ED0;
+			productRefGroup = 9553D6071C9EC1DE004F8ED0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9553D6051C9EC1DE004F8ED0 /* Inertia */,
+				9553D6191C9EC1DF004F8ED0 /* InertiaTests */,
+				9553D6241C9EC1DF004F8ED0 /* InertiaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9553D6041C9EC1DE004F8ED0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9553D6141C9EC1DF004F8ED0 /* LaunchScreen.storyboard in Resources */,
+				9553D6111C9EC1DF004F8ED0 /* Assets.xcassets in Resources */,
+				9553D60F1C9EC1DE004F8ED0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9553D6181C9EC1DF004F8ED0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9553D6231C9EC1DF004F8ED0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9553D6021C9EC1DE004F8ED0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9553D60C1C9EC1DE004F8ED0 /* ViewController.swift in Sources */,
+				9553D60A1C9EC1DE004F8ED0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9553D6161C9EC1DF004F8ED0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9553D61F1C9EC1DF004F8ED0 /* InertiaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9553D6211C9EC1DF004F8ED0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9553D62A1C9EC1DF004F8ED0 /* InertiaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9553D61C1C9EC1DF004F8ED0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9553D6051C9EC1DE004F8ED0 /* Inertia */;
+			targetProxy = 9553D61B1C9EC1DF004F8ED0 /* PBXContainerItemProxy */;
+		};
+		9553D6271C9EC1DF004F8ED0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9553D6051C9EC1DE004F8ED0 /* Inertia */;
+			targetProxy = 9553D6261C9EC1DF004F8ED0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9553D60D1C9EC1DE004F8ED0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9553D60E1C9EC1DE004F8ED0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9553D6121C9EC1DF004F8ED0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9553D6131C9EC1DF004F8ED0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9553D62C1C9EC1DF004F8ED0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9553D62D1C9EC1DF004F8ED0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9553D62F1C9EC1DF004F8ED0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Inertia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tovkal.Inertia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9553D6301C9EC1DF004F8ED0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Inertia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tovkal.Inertia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9553D6321C9EC1DF004F8ED0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = InertiaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tovkal.InertiaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Inertia.app/Inertia";
+			};
+			name = Debug;
+		};
+		9553D6331C9EC1DF004F8ED0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = InertiaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tovkal.InertiaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Inertia.app/Inertia";
+			};
+			name = Release;
+		};
+		9553D6351C9EC1DF004F8ED0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = InertiaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tovkal.InertiaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Inertia;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		9553D6361C9EC1DF004F8ED0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = InertiaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tovkal.InertiaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Inertia;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9553D6011C9EC1DE004F8ED0 /* Build configuration list for PBXProject "Inertia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9553D62C1C9EC1DF004F8ED0 /* Debug */,
+				9553D62D1C9EC1DF004F8ED0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9553D62E1C9EC1DF004F8ED0 /* Build configuration list for PBXNativeTarget "Inertia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9553D62F1C9EC1DF004F8ED0 /* Debug */,
+				9553D6301C9EC1DF004F8ED0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9553D6311C9EC1DF004F8ED0 /* Build configuration list for PBXNativeTarget "InertiaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9553D6321C9EC1DF004F8ED0 /* Debug */,
+				9553D6331C9EC1DF004F8ED0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9553D6341C9EC1DF004F8ED0 /* Build configuration list for PBXNativeTarget "InertiaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9553D6351C9EC1DF004F8ED0 /* Debug */,
+				9553D6361C9EC1DF004F8ED0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9553D5FE1C9EC1DE004F8ED0 /* Project object */;
+}
