@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		9506877F1C9EC42900F5A387 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9506877D1C9EC42900F5A387 /* Fabric.framework */; };
 		950687801C9EC42900F5A387 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9506877E1C9EC42900F5A387 /* Crashlytics.framework */; };
+		950687831C9EC4EE00F5A387 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 950687811C9EC4EE00F5A387 /* Realm.framework */; };
+		950687841C9EC4EE00F5A387 /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 950687811C9EC4EE00F5A387 /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		950687851C9EC4EE00F5A387 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 950687821C9EC4EE00F5A387 /* RealmSwift.framework */; };
+		950687861C9EC4EE00F5A387 /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 950687821C9EC4EE00F5A387 /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9553D60A1C9EC1DE004F8ED0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9553D6091C9EC1DE004F8ED0 /* AppDelegate.swift */; };
 		9553D60C1C9EC1DE004F8ED0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9553D60B1C9EC1DE004F8ED0 /* ViewController.swift */; };
 		9553D60F1C9EC1DE004F8ED0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9553D60D1C9EC1DE004F8ED0 /* Main.storyboard */; };
@@ -35,9 +39,26 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		950687871C9EC4EE00F5A387 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				950687861C9EC4EE00F5A387 /* RealmSwift.framework in Embed Frameworks */,
+				950687841C9EC4EE00F5A387 /* Realm.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		9506877D1C9EC42900F5A387 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = SOURCE_ROOT; };
 		9506877E1C9EC42900F5A387 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = SOURCE_ROOT; };
+		950687811C9EC4EE00F5A387 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = Carthage/Build/iOS/Realm.framework; sourceTree = "<group>"; };
+		950687821C9EC4EE00F5A387 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = Carthage/Build/iOS/RealmSwift.framework; sourceTree = "<group>"; };
 		9553D6061C9EC1DE004F8ED0 /* Inertia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Inertia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9553D6091C9EC1DE004F8ED0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9553D60B1C9EC1DE004F8ED0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,7 +79,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				950687831C9EC4EE00F5A387 /* Realm.framework in Frameworks */,
 				950687801C9EC42900F5A387 /* Crashlytics.framework in Frameworks */,
+				950687851C9EC4EE00F5A387 /* RealmSwift.framework in Frameworks */,
 				9506877F1C9EC42900F5A387 /* Fabric.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -80,9 +103,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		950687881C9EC4F700F5A387 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9506877D1C9EC42900F5A387 /* Fabric.framework */,
+				9506877E1C9EC42900F5A387 /* Crashlytics.framework */,
+				950687811C9EC4EE00F5A387 /* Realm.framework */,
+				950687821C9EC4EE00F5A387 /* RealmSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9553D5FD1C9EC1DE004F8ED0 = {
 			isa = PBXGroup;
 			children = (
+				950687881C9EC4F700F5A387 /* Frameworks */,
 				9553D6081C9EC1DE004F8ED0 /* Inertia */,
 				9553D61D1C9EC1DF004F8ED0 /* InertiaTests */,
 				9553D6281C9EC1DF004F8ED0 /* InertiaUITests */,
@@ -103,8 +138,6 @@
 		9553D6081C9EC1DE004F8ED0 /* Inertia */ = {
 			isa = PBXGroup;
 			children = (
-				9506877D1C9EC42900F5A387 /* Fabric.framework */,
-				9506877E1C9EC42900F5A387 /* Crashlytics.framework */,
 				9553D6091C9EC1DE004F8ED0 /* AppDelegate.swift */,
 				9553D60B1C9EC1DE004F8ED0 /* ViewController.swift */,
 				9553D60D1C9EC1DE004F8ED0 /* Main.storyboard */,
@@ -143,6 +176,8 @@
 				9553D6021C9EC1DE004F8ED0 /* Sources */,
 				9553D6031C9EC1DE004F8ED0 /* Frameworks */,
 				9553D6041C9EC1DE004F8ED0 /* Resources */,
+				950687871C9EC4EE00F5A387 /* Embed Frameworks */,
+				950687891C9EC50C00F5A387 /* ShellScript */,
 				9506877C1C9EC41300F5A387 /* ShellScript */,
 			);
 			buildRules = (
@@ -273,6 +308,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "./Fabric.framework/run 2a83bde9cbf98b48f34f2f27fdb7baa31cf9b5f8 8edbf06d5de27983cb0bf34ca9e266b949a15616bfd9e7a3f6ee013b97cc3d46";
+		};
+		950687891C9EC50C00F5A387 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Realm.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RealmSwift.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -422,9 +472,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = Inertia/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -440,6 +492,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = Inertia/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
